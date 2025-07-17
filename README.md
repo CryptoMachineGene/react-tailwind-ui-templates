@@ -1,5 +1,7 @@
 # react-tailwind-ui-templates
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange.svg)
+
 Reusable JSX components styled with Tailwind CSS — designed to speed up frontend development, especially for Web3, dashboard, and dApp interfaces.
 
 This repo serves as a personal library of lightweight, composable UI building blocks.
