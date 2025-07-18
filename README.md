@@ -1,31 +1,34 @@
-# react-tailwind-ui-templates
+# React + Tailwind UI Templates
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange.svg)
+A growing collection of clean, reusable UI components built with **React** and **Tailwind CSS**.  
+This project serves as a personal component library and dev sandbox for layout exploration, state handling, and Tailwind experimentation.
 
-Reusable JSX components styled with Tailwind CSS — designed to speed up frontend development, especially for Web3, dashboard, and dApp interfaces.
+## Current Components
 
-This repo serves as a personal library of lightweight, composable UI building blocks.
+- ✅ `Navbar` — responsive, mobile-friendly navigation bar with toggle button
+- ✅ `DashboardCard` — simple, styled metric card with icon support
 
-## 📁 Structure
+## Project Goals
 
-components/  
-├── DashboardCard.jsx        # Reusable card block with title, subtitle, content  
-├── WalletConnectButton.jsx  # (Planned) Wallet connect trigger w/ styling  
-├── ENSDisplay.jsx           # (Planned) ENS name/avatar display block  
-snippets/  
-├── dashboard_card.sublime-snippet  # Sublime snippet version of DashboardCard  
+- Create production-ready component scaffolds
+- Practice Tailwind layout and spacing systems
+- Use as a reference library for future dev projects
 
-## 🚀 Usage
+## Setup
 
-### 🧱 Example: `DashboardCard`
-
-```jsx
-import DashboardCard from './components/DashboardCard';
-
-<DashboardCard
-  title="Wallet Overview"
-  subtitle="Connected to 0x123...Abc"
->
-  <p className="text-green-400">Balance: 3.42 ETH</p>
-</DashboardCard>
+```bash
+npm install
+npm run dev
 ```
+
+Navigate to: http://localhost:5173
+
+Notes
+Tailwind manually configured (not using CLI scaffolding due to compatibility issues)
+
+Project uses Vite 7 and React 18
+
+Layout bugs currently under investigation (navbar overlap in fixed layout)
+
+License
+MIT

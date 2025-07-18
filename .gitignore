@@ -3,7 +3,9 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # Runtime files
 *.pid
@@ -14,15 +16,25 @@ pnpm-debug.log*
 .DS_Store
 *.sublime-workspace
 *.sublime-project
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Dependency/build output (if you test components)
+# Dependency/build output
 node_modules/
 dist/
+dist-ssr/
 .cache/
 build/
 coverage/
+*.local
 
-# Environment vars (just in case)
+# Environment vars
 .env
 .env.*
 
