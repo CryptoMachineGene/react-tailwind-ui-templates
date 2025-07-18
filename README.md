@@ -1,5 +1,7 @@
 # React + Tailwind UI Templates
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange.svg)
+
 A growing collection of clean, reusable UI components built with **React** and **Tailwind CSS**.  
 This project serves as a personal component library and dev sandbox for layout exploration, state handling, and Tailwind experimentation.
 
